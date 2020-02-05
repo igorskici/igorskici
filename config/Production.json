@@ -1,0 +1,6 @@
+{
+    "MongoURI":"mongodb+srv://igorde:Core2duo!@mongodb-hj1lk.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret":"mySecretToken",
+    "githubClientId":"09a6d5e43228a188c680",
+    "gitHubSecret":"0c3e4c10908e0eb520a57859348c4d47f2a55094"
+}
