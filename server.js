@@ -1,13 +1,15 @@
 const express = require('express');
 const connectDb = require('./config/db');
 const path = require('path');
+var cors = require('cors');
 
 const app = express();
 
 //Connect Database
 connectDb();
 
-app.use(express.json({extended: false}))
+app.use(express.json({extended: false}));
+app.use(cors());
 
 // app.get('/', (req, res) => res.send('API running'))
 
